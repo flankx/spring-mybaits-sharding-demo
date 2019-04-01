@@ -5,12 +5,12 @@ server:
 spring:
   profiles:
     active: local
-  datasource:
-#    type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:mysql://localhost:3306/dena_store_cn
-    username: root
-    password: root
-    driver-class-name: com.mysql.cj.jdbc.Driver
+#  datasource:
+##    type: com.zaxxer.hikari.HikariDataSource
+#    url: jdbc:mysql://localhost:3306/dena_store_cn
+#    username: root
+#    password: root
+#    driver-class-name: com.mysql.cj.jdbc.Driver
 # mybaits conf
 mybatis:
   mapper-locations: classpath:mapper/*.xml
